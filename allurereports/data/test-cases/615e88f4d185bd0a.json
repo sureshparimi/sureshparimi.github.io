@@ -1,0 +1,1618 @@
+{
+  "uid" : "615e88f4d185bd0a",
+  "name" : "Convert currency (example #2)",
+  "fullName" : "Convert currency (example #2)",
+  "historyId" : "2427e08a19c5c3f13624fc60037ab843",
+  "time" : {
+    "start" : 1675087259809,
+    "stop" : 1675087281834,
+    "duration" : 22025
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit /currencyconverter -> 301: https://www.xe.com:443/currencyconverter -> 308: https://www.xe.com:443/currencyconverter/",
+      "time" : {
+        "start" : 1675087260221,
+        "stop" : 1675087267884,
+        "duration" : 7663
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://cdn.optimizely.com/datafiles/L2qjaBiTHQ9mVbWrXXj63.json",
+      "time" : {
+        "start" : 1675087267883,
+        "stop" : 1675087267883,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST 204 https://logx.optimizely.com/v1/events",
+      "time" : {
+        "start" : 1675087267883,
+        "stop" : 1675087267883,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.xe.com/api/protected/midmarket-converter/",
+      "time" : {
+        "start" : 1675087267883,
+        "stop" : 1675087267883,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://images.ctfassets.net/izij9rskv5y1/bHU7wX0pAenWR6F9P2Hzj/b071a76f74fcb1eb33eb87ed8f049790/icon-paper-airplane.svg",
+      "time" : {
+        "start" : 1675087267883,
+        "stop" : 1675087267883,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://www.xe.com/api/popular-pairs/?from=USD",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST 200 https://www.xe.com/api/disclaimer/",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/1iR4nf5dFpVtID5BXeuvCP/f99ac5392fd02e769fac31379be6e11a/icon-line-graph.svg",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://www.xe.com/_next/data/zXvi01CWf5uhNGPHQuwm0/en/xecurrencydata.json",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://www.xe.com/_next/data/zXvi01CWf5uhNGPHQuwm0/en/ratealerts.json",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://www.xe.com/api/protected/midmarket-converter/",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/s1X5AJQMFk2OWfnvFGyJG/4c417f51121c3340b2e54148f136870b/icon-ringing-bell.svg",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/2hmx6Rp3Eh4RmbXMv3G5jY/6cb147279e953385c6e04774519bc7a5/shopify-logo.svg",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/7oWD7d9fleG2QlchSpjxxx/9901ef85cdc36af90790a9bd28e1870d/clearbooks-logo.svg",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/5iY6CFP4GbwRXyjHcjsnVN/de38dab7a16d8141a675bf9ea08767fa/logo-xero.svg",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/a47XOe1QYeHYVT9wtLjz9/2106e5d554ce5c923124cc732ffdd71a/vistaprint-optimized.svg",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/2ynWQQ5XyoPhunFqmJBoVw/da91b637e42c4fa2c3a13903f8c644b9/recently-viewed.svg",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.xe.com/api/protected/charting-rates/?fromCurrency=USD&toCurrency=EUR",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.xe.com/api/protected/charting-rates/?fromCurrency=USD&toCurrency=GBP",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/3rPrfyp7tvP6V3onELoVDf/874ba97861d19bd84da24c7ba13df814/calculator.svg",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/7EyjtDoeT5rtMjmzn6xYch/8acd91d4770ff338670103b6be82fa9e/email.svg",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/bHU7wX0pAenWR6F9P2Hzj/b071a76f74fcb1eb33eb87ed8f049790/icon-paper-airplane.svg",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://images.ctfassets.net/izij9rskv5y1/1iR4nf5dFpVtID5BXeuvCP/f99ac5392fd02e769fac31379be6e11a/icon-line-graph.svg",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://images.ctfassets.net/izij9rskv5y1/s1X5AJQMFk2OWfnvFGyJG/4c417f51121c3340b2e54148f136870b/icon-ringing-bell.svg",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://api.trustpilot.com/v1/business-units/46d46a2b000064000500c269/reviews?apikey=pIG1PsJAY8AoS8OixEBbjTdNZ818ixcG&orderBy=createdat.desc&perPage=11&stars=5&stars=4&language=en",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://api.trustpilot.com/v1/business-units/46d46a2b000064000500c269?apikey=pIG1PsJAY8AoS8OixEBbjTdNZ818ixcG",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST 200 https://api.amplitude.com/",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.xe.com/api/protected/charting-rates/?fromCurrency=USD&toCurrency=JPY",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST 204 https://logx.optimizely.com/v1/events",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://www.xe.com/api/protected/charting-rates/?fromCurrency=USD&toCurrency=CAD",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.xe.com/api/protected/midmarket-converter/",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST 200 https://api.amplitude.com/",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://cdn.linkedin.oribi.io/partner/1407028/domain/xe.com/token",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://www.xe.com/favicon-32x32.png",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://www.xe.com/favicon-16x16.png",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://googleads4.g.doubleclick.net/pcs/view?xai=AKAOjsv5KuvfHBTIFzvEvOaMbGUVCwAA-D-PIzsRG5IBnskSEshV8UNXAD3SLS95jXjy6SuFhSy4vbvZaYCnmFoB3HN7tebGXt4ndHa5N98CMXgzPikL4fjdF93W0MQTa4uF5U_t2If27b7XQoiDTM5o&sai=AMfl-YRnGPa56l2bE2H-yp3-r1S73s4ymXcAlbq3_pS82kIZ7bapLPjhWjg7m5Inw1S9UNxLlaPiHwWv5fN228TKWVnrnEU-IfdOzWZnE-RC&sig=Cg0ArKJSzAPAsAiUh2_KEAE&uach_m=[UACH]&cry=1&fbs_aeid=[gw_fbsaeid]&urlfix=1&omid=0&rm=1&ctpt=1090&vt=11&dtpt=742&dett=3&cstd=346&cisv=r20230124.75372&uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTA2LjAuNTI0OS41MSIsW10sZmFsc2UsbnVsbCwiNjQiLFtbIk5vdDtBPUJyYW5kIiwiOTkuMC4wLjAiXSxbIkNocm9taXVtIiwiMTA2LjAuNTI0OS41MSJdXSxmYWxzZV0.&arae=0&ftch=1&adurl=",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087267884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "closePopup",
+      "time" : {
+        "start" : 1675087267884,
+        "stop" : 1675087277154,
+        "duration" : 9270
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "wait 9221",
+        "time" : {
+          "start" : 1675087267885,
+          "stop" : 1675087277108,
+          "duration" : 9223
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjsvSatgc4D7FkEOIprTircnLhYBZGbP2JVhJysYaI5wSQt3lYOQEoWZcuaD0sFcQgiaRV2f6yw6KyDzB7hzu_mkTZiIWapht&sig=Cg0ArKJSzJf-zEV1RlSKEAE&id=lidar2&mcvt=1000&p=0,0,90,728&mtos=1000,1000,1000,1000,1000&tos=1000,0,0,0,0&v=20230125&bin=7&avms=nio&bs=0,0&mc=1&if=1&vu=1&app=0&itpl=34&adk=3379914942&rs=6&la=0&cr=0&uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTA2LjAuNTI0OS41MSIsW10sZmFsc2UsbnVsbCwiNjQiLFtbIk5vdDtBPUJyYW5kIiwiOTkuMC4wLjAiXSxbIkNocm9taXVtIiwiMTA2LjAuNTI0OS41MSJdXSxmYWxzZV0%3D&vs=4&r=v&rst=1675087265588&rpt=1743&met=mue&wmsd=0&pbe=0&vae=0&spb=0",
+        "time" : {
+          "start" : 1675087277108,
+          "stop" : 1675087277108,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #yie-overlay-wrapper-c88bbe5d-c564-56d5-a731-e326ecf3b109 > yld-tag-host-campaign",
+        "time" : {
+          "start" : 1675087277108,
+          "stop" : 1675087277143,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "then function(){}",
+      "time" : {
+        "start" : 1675087277155,
+        "stop" : 1675087277155,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given  **I am on the XE currency converter page**",
+      "time" : {
+        "start" : 1675087277155,
+        "stop" : 1675087277155,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<input#amount.amount-input__NumberInput-sc-1gq6pic-1.eIuRdk>** to be **visible**",
+      "time" : {
+        "start" : 1675087277160,
+        "stop" : 1675087277188,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get #amount",
+      "time" : {
+        "start" : 1675087277188,
+        "stop" : 1675087277188,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type 20",
+      "time" : {
+        "start" : 1675087277188,
+        "stop" : 1675087277545,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<input#midmarketFromCurrency.text-input__TextInput-sc-17mujrb-0.base-combobox__ComboboxInput-iyxb4f-5.dMvKLn.dsBmQO.combobox-input>** to be **visible**",
+      "time" : {
+        "start" : 1675087277545,
+        "stop" : 1675087277565,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get #midmarketFromCurrency",
+      "time" : {
+        "start" : 1675087277565,
+        "stop" : 1675087277565,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type USD",
+      "time" : {
+        "start" : 1675087277566,
+        "stop" : 1675087277949,
+        "duration" : 383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get li.bVjbQr",
+      "time" : {
+        "start" : 1675087277949,
+        "stop" : 1675087277972,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<div>** to be **visible**",
+      "time" : {
+        "start" : 1675087277972,
+        "stop" : 1675087277994,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "contains USD – US Dollar",
+      "time" : {
+        "start" : 1675087277994,
+        "stop" : 1675087277994,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1675087277994,
+        "stop" : 1675087278178,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<input#midmarketToCurrency.text-input__TextInput-sc-17mujrb-0.base-combobox__ComboboxInput-iyxb4f-5.dMvKLn.dsBmQO.combobox-input>** to be **visible**",
+      "time" : {
+        "start" : 1675087278178,
+        "stop" : 1675087278197,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get #midmarketToCurrency",
+      "time" : {
+        "start" : 1675087278197,
+        "stop" : 1675087278197,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type EUR",
+      "time" : {
+        "start" : 1675087278197,
+        "stop" : 1675087278615,
+        "duration" : 418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get li.bVjbQr",
+      "time" : {
+        "start" : 1675087278615,
+        "stop" : 1675087278638,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<div>** to be **visible**",
+      "time" : {
+        "start" : 1675087278638,
+        "stop" : 1675087278662,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "contains EUR – Euro",
+      "time" : {
+        "start" : 1675087278662,
+        "stop" : 1675087278662,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1675087278662,
+        "stop" : 1675087278854,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get button.clGTKJ",
+      "time" : {
+        "start" : 1675087278854,
+        "stop" : 1675087278868,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<button.button__BaseButton-sc-1qpsalo-0.clGTKJ>** to be **visible**",
+      "time" : {
+        "start" : 1675087278868,
+        "stop" : 1675087278885,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "last",
+      "time" : {
+        "start" : 1675087278885,
+        "stop" : 1675087278885,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1675087278885,
+        "stop" : 1675087279177,
+        "duration" : 292
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "then function(){}",
+      "time" : {
+        "start" : 1675087279178,
+        "stop" : 1675087279178,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  **I convert \"20\" \"USD – US Dollar\" to \"EUR – Euro\"**",
+      "time" : {
+        "start" : 1675087279178,
+        "stop" : 1675087279178,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "randomWait (\"2000\"; \"3000\")",
+      "time" : {
+        "start" : 1675087279182,
+        "stop" : 1675087281696,
+        "duration" : 2514
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "wait 2494",
+        "time" : {
+          "start" : 1675087279183,
+          "stop" : 1675087281696,
+          "duration" : 2513
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://www.xe.com/_next/data/zXvi01CWf5uhNGPHQuwm0/en/currencyconverter/convert.json?Amount=20&From=USD&To=EUR",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://www.xe.com/currencyconverter/convert/?Amount=20&From=USD&To=EUR",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://www.xe.com/api/protected/midmarket-converter/",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://www.xe.com/api/encyclopedia-snippets/?currencies=USD&currencies=EUR",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://www.xe.com/_next/data/zXvi01CWf5uhNGPHQuwm0/en/currency/usd-us-dollar.json",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://www.xe.com/_next/data/zXvi01CWf5uhNGPHQuwm0/en/currency/eur-euro.json",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://api.amplitude.com/",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/bHU7wX0pAenWR6F9P2Hzj/b071a76f74fcb1eb33eb87ed8f049790/icon-paper-airplane.svg",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/1iR4nf5dFpVtID5BXeuvCP/f99ac5392fd02e769fac31379be6e11a/icon-line-graph.svg",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/s1X5AJQMFk2OWfnvFGyJG/4c417f51121c3340b2e54148f136870b/icon-ringing-bell.svg",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/2hmx6Rp3Eh4RmbXMv3G5jY/6cb147279e953385c6e04774519bc7a5/shopify-logo.svg",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/7oWD7d9fleG2QlchSpjxxx/9901ef85cdc36af90790a9bd28e1870d/clearbooks-logo.svg",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/5iY6CFP4GbwRXyjHcjsnVN/de38dab7a16d8141a675bf9ea08767fa/logo-xero.svg",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/a47XOe1QYeHYVT9wtLjz9/2106e5d554ce5c923124cc732ffdd71a/vistaprint-optimized.svg",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://images.ctfassets.net/izij9rskv5y1/bHU7wX0pAenWR6F9P2Hzj/b071a76f74fcb1eb33eb87ed8f049790/icon-paper-airplane.svg",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://images.ctfassets.net/izij9rskv5y1/s1X5AJQMFk2OWfnvFGyJG/4c417f51121c3340b2e54148f136870b/icon-ringing-bell.svg",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://images.ctfassets.net/izij9rskv5y1/1iR4nf5dFpVtID5BXeuvCP/f99ac5392fd02e769fac31379be6e11a/icon-line-graph.svg",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://www.xe.com/api/protected/charting-rates/?fromCurrency=USD&toCurrency=EUR&crypto=true",
+        "time" : {
+          "start" : 1675087281695,
+          "stop" : 1675087281696,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://www.xe.com/api/protected/statistics/?from=USD&to=EUR",
+        "time" : {
+          "start" : 1675087281696,
+          "stop" : 1675087281696,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://www.xe.com/api/popular-pairs/?from=USD",
+        "time" : {
+          "start" : 1675087281696,
+          "stop" : 1675087281696,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://api.amplitude.com/",
+        "time" : {
+          "start" : 1675087281696,
+          "stop" : 1675087281696,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 22,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get p.iGrAod",
+      "time" : {
+        "start" : 1675087281696,
+        "stop" : 1675087281713,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get div.dEqdnx",
+      "time" : {
+        "start" : 1675087281716,
+        "stop" : 1675087281730,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "find p:nth-child(1)",
+      "time" : {
+        "start" : 1675087281730,
+        "stop" : 1675087281747,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **18.36696 Euros** to include **Euros**",
+      "time" : {
+        "start" : 1675087281754,
+        "stop" : 1675087281754,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "18.36696 Euros"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **18.3670** to include **18.3670**",
+      "time" : {
+        "start" : 1675087281754,
+        "stop" : 1675087281754,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "18.3670"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "then function(){}",
+      "time" : {
+        "start" : 1675087281755,
+        "stop" : 1675087281755,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  **I should see the result of \"20\" \"Euros\"**",
+      "time" : {
+        "start" : 1675087281755,
+        "stop" : 1675087281755,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get div.dEqdnx",
+      "time" : {
+        "start" : 1675087281757,
+        "stop" : 1675087281773,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "find p:nth-child(1)",
+      "time" : {
+        "start" : 1675087281773,
+        "stop" : 1675087281791,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **1 USD = 0.918348 EUR** to include **USD**",
+      "time" : {
+        "start" : 1675087281796,
+        "stop" : 1675087281796,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "1 USD = 0.918348 EUR"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get div.dEqdnx",
+      "time" : {
+        "start" : 1675087281796,
+        "stop" : 1675087281812,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "find p:nth-child(1)",
+      "time" : {
+        "start" : 1675087281812,
+        "stop" : 1675087281827,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **1 USD = 0.918348 EUR** to include **EUR**",
+      "time" : {
+        "start" : 1675087281832,
+        "stop" : 1675087281832,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "1 USD = 0.918348 EUR"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "then function(){}",
+      "time" : {
+        "start" : 1675087281833,
+        "stop" : 1675087281833,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  **I should see the unit values for both \"USD – US Dollar\" and \"EUR – Euro\" in the conversion result.**",
+      "time" : {
+        "start" : 1675087281833,
+        "stop" : 1675087281833,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 103,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "XE Currency Converter"
+  }, {
+    "name" : "feature",
+    "value" : "XE Currency Converter"
+  }, {
+    "name" : "tag",
+    "value" : "smoketest"
+  }, {
+    "name" : "tag",
+    "value" : "Priority:2"
+  }, {
+    "name" : "tag",
+    "value" : "xe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoketest", "xe", "Priority:2" ]
+  },
+  "source" : "615e88f4d185bd0a.json",
+  "parameterValues" : [ ]
+}

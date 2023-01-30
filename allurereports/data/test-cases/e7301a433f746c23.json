@@ -1,0 +1,763 @@
+{
+  "uid" : "e7301a433f746c23",
+  "name" : "Verify Send Money - Register Now button state (example #2)",
+  "fullName" : "Verify Send Money - Register Now button state (example #2)",
+  "historyId" : "2931e2e55f9ef704fae582476caa734c",
+  "time" : {
+    "start" : 1675087344740,
+    "stop" : 1675087358655,
+    "duration" : 13915
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit /send-money/ -> 301: https://www.xe.com:443/send-money/",
+      "time" : {
+        "start" : 1675087345126,
+        "stop" : 1675087352312,
+        "duration" : 7186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://cdn.optimizely.com/datafiles/L2qjaBiTHQ9mVbWrXXj63.json",
+      "time" : {
+        "start" : 1675087352311,
+        "stop" : 1675087352311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "uncaught exception TypeError: Cannot read properties of undefined (reading 'load')",
+      "time" : {
+        "start" : 1675087352311,
+        "stop" : 1675087352311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "uncaught exception TypeError: Cannot read properties of undefined (reading 'load')",
+      "time" : {
+        "start" : 1675087352311,
+        "stop" : 1675087352311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST 200 https://www.xe.com/api/disclaimer/",
+      "time" : {
+        "start" : 1675087352311,
+        "stop" : 1675087352311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://www.xe.com/_next/data/zXvi01CWf5uhNGPHQuwm0/en/xecurrencydata.json",
+      "time" : {
+        "start" : 1675087352311,
+        "stop" : 1675087352311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://www.xe.com/_next/data/zXvi01CWf5uhNGPHQuwm0/en/ratealerts.json",
+      "time" : {
+        "start" : 1675087352311,
+        "stop" : 1675087352311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/7uxFnQ1iQStuKexwAEuU9y/57fcdf9a72bf51dd4e37ad1e86e0ff67/xe_money_transfer-new-account.svg",
+      "time" : {
+        "start" : 1675087352311,
+        "stop" : 1675087352311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/5M9wzbmZdhgKH8ddDv26Ub/39d4ebfcddd44e93ff076468d17fc1db/xe_money_transfer-create-account.svg",
+      "time" : {
+        "start" : 1675087352311,
+        "stop" : 1675087352311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/2JHD9Yfo161XL6dvl6MV4m/ed1182eb60b0d64780cf9b845c03bb47/xe_money_transfer-send-confirm.svg",
+      "time" : {
+        "start" : 1675087352311,
+        "stop" : 1675087352311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/4N65A6x9loFLvD88IKMWzM/8669dbf58ff9c146063e39f27f125d9b/1.1.svg",
+      "time" : {
+        "start" : 1675087352311,
+        "stop" : 1675087352311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/74EMNuEIwiFERRwvjydU4n/4c22927a954ca105271fae6dba1a840d/xe_money_transfer-were-fast.svg",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://images.ctfassets.net/izij9rskv5y1/4gulHutpwbf7LsGRblrvYH/035578fb7d965153ce9c11fc7f63c2d1/xe_money_transfer_safe-secure.svg",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://api.trustpilot.com/v1/business-units/46d46a2b000064000500c269/reviews?apikey=pIG1PsJAY8AoS8OixEBbjTdNZ818ixcG&orderBy=createdat.desc&perPage=11&stars=5&stars=4&language=en",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://api.trustpilot.com/v1/business-units/46d46a2b000064000500c269?apikey=pIG1PsJAY8AoS8OixEBbjTdNZ818ixcG",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST 200 https://api.amplitude.com/",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://images.ctfassets.net/izij9rskv5y1/5M9wzbmZdhgKH8ddDv26Ub/39d4ebfcddd44e93ff076468d17fc1db/xe_money_transfer-create-account.svg",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://images.ctfassets.net/izij9rskv5y1/2JHD9Yfo161XL6dvl6MV4m/ed1182eb60b0d64780cf9b845c03bb47/xe_money_transfer-send-confirm.svg",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://images.ctfassets.net/izij9rskv5y1/7uxFnQ1iQStuKexwAEuU9y/57fcdf9a72bf51dd4e37ad1e86e0ff67/xe_money_transfer-new-account.svg",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST 204 https://logx.optimizely.com/v1/events",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST 200 https://api.amplitude.com/",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://cdn.linkedin.oribi.io/partner/1407028/domain/xe.com/token",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j99&tid=UA-183969431-1&cid=938066455.1675087348&jid=1962298624&gjid=901613931&_gid=246654989.1675087348&_u=YGBAgEABAAAAAEAAI~&z=454470325",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST 204 https://logx.optimizely.com/v1/events",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://www.xe.com/favicon-32x32.png",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://www.xe.com/favicon-16x16.png",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://googleads4.g.doubleclick.net/pcs/view?xai=AKAOjss2ikdvlsQgSDtMyXO1UFW5phOFKZoKQzNQQyPUDNmVRawT12XMNbTSu_Ge0CxYT8Vvj4GGflZ7LNdVM0bKFRIIs9i46zDTh1OgtQ_bQmKUIhJY8t7GbscMUZSaN8cNH-JQvkpkbyrdRETMDQFQ&sai=AMfl-YSWMnqTxnz7PwMLyr8hxD3R4HViRHCFp4YjdF_w9u5dPbJaUiaI2bJKXtiPbX9U34x9B5GjSk-13yyVcCe_nixgDuKkjC7d65Mtf4cL&sig=Cg0ArKJSzP8_or3tU-6iEAE&uach_m=[UACH]&cry=1&fbs_aeid=[gw_fbsaeid]&urlfix=1&omid=0&rm=1&ctpt=723&vt=11&dtpt=363&dett=3&cstd=357&cisv=r20230124.11926&uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTA2LjAuNTI0OS41MSIsW10sZmFsc2UsbnVsbCwiNjQiLFtbIk5vdDtBPUJyYW5kIiwiOTkuMC4wLjAiXSxbIkNocm9taXVtIiwiMTA2LjAuNTI0OS41MSJdXSxmYWxzZV0.&arae=0&ftch=1&adurl=",
+      "time" : {
+        "start" : 1675087352312,
+        "stop" : 1675087352312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "then function(){}",
+      "time" : {
+        "start" : 1675087352313,
+        "stop" : 1675087352313,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given  **I am on the XE send money page**",
+      "time" : {
+        "start" : 1675087352313,
+        "stop" : 1675087352313,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<a.Buttonstyle__BaseButton-sc-1q20nco-2.rvriS>** to be **visible**",
+      "time" : {
+        "start" : 1675087352316,
+        "stop" : 1675087352332,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get a.rvriS",
+      "time" : {
+        "start" : 1675087352332,
+        "stop" : 1675087352332,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1675087352332,
+        "stop" : 1675087352594,
+        "duration" : 262
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "page load --waiting for new page to load--",
+      "time" : {
+        "start" : 1675087352594,
+        "stop" : 1675087352594,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "then function(){}",
+      "time" : {
+        "start" : 1675087357984,
+        "stop" : 1675087357984,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  **The user clicks on Sign in and Send button**",
+      "time" : {
+        "start" : 1675087357984,
+        "stop" : 1675087357984,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<input#email.Input-sc-1bowh0g-3.cYrqgU>** to be **visible**",
+      "time" : {
+        "start" : 1675087357986,
+        "stop" : 1675087358006,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get #email",
+      "time" : {
+        "start" : 1675087358006,
+        "stop" : 1675087358006,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type validemail@xe.com",
+      "time" : {
+        "start" : 1675087358006,
+        "stop" : 1675087358372,
+        "duration" : 366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<input#password.Input-sc-1bowh0g-3.iQtFMP>** to be **visible**",
+      "time" : {
+        "start" : 1675087358372,
+        "stop" : 1675087358383,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get #password",
+      "time" : {
+        "start" : 1675087358383,
+        "stop" : 1675087358383,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type Inv@pwd",
+      "time" : {
+        "start" : 1675087358383,
+        "stop" : 1675087358634,
+        "duration" : 251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "then function(){}",
+      "time" : {
+        "start" : 1675087358635,
+        "stop" : 1675087358635,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  **The user enters their \"validemail@xe.com\" and \"Inv@pwd\" in the respective fields**",
+      "time" : {
+        "start" : 1675087358635,
+        "stop" : 1675087358635,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<button.ButtonBase-cwHurt.ButtonLarge-gUclbp.sc-bwzfXH.lfOWZX>** to be **disabled**",
+      "time" : {
+        "start" : 1675087358638,
+        "stop" : 1675087358654,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get button[type=\"submit\"]",
+      "time" : {
+        "start" : 1675087358654,
+        "stop" : 1675087358654,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "then function(){}",
+      "time" : {
+        "start" : 1675087358655,
+        "stop" : 1675087358655,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  **The Register Now button should be \"disabled\"**",
+      "time" : {
+        "start" : 1675087358655,
+        "stop" : 1675087358655,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 47,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "XE Currency Converter"
+  }, {
+    "name" : "feature",
+    "value" : "XE Currency Converter"
+  }, {
+    "name" : "tag",
+    "value" : "Priority:3"
+  }, {
+    "name" : "tag",
+    "value" : "xe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "xe", "Priority:3" ]
+  },
+  "source" : "e7301a433f746c23.json",
+  "parameterValues" : [ ]
+}

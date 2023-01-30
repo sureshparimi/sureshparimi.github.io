@@ -1,0 +1,162 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "XE Currency Converter",
+    "children" : [ {
+      "name" : "Convert currency (example #1)",
+      "uid" : "98fa47a125616fe2",
+      "parentUid" : "cccbe691235881fd6e853437b6f24321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675087230937,
+        "stop" : 1675087259720,
+        "duration" : 28783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Convert currency (example #2)",
+      "uid" : "615e88f4d185bd0a",
+      "parentUid" : "cccbe691235881fd6e853437b6f24321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675087259809,
+        "stop" : 1675087281834,
+        "duration" : 22025
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Error message for invalid amount input",
+      "uid" : "57cc71246a8d91c6",
+      "parentUid" : "cccbe691235881fd6e853437b6f24321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675087281920,
+        "stop" : 1675087296143,
+        "duration" : 14223
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Option for Indian Rupee in \"From\" field",
+      "uid" : "b5778e1374527149",
+      "parentUid" : "cccbe691235881fd6e853437b6f24321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675087296165,
+        "stop" : 1675087309508,
+        "duration" : 13343
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify \"Convert\" button value",
+      "uid" : "4f142fa2afee44d1",
+      "parentUid" : "cccbe691235881fd6e853437b6f24321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675087309527,
+        "stop" : 1675087325838,
+        "duration" : 16311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Send Money - Register Now button state (example #1)",
+      "uid" : "f263bb630c8dbf63",
+      "parentUid" : "cccbe691235881fd6e853437b6f24321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675087325859,
+        "stop" : 1675087344699,
+        "duration" : 18840
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Send Money - Register Now button state (example #2)",
+      "uid" : "e7301a433f746c23",
+      "parentUid" : "cccbe691235881fd6e853437b6f24321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675087344740,
+        "stop" : 1675087358655,
+        "duration" : 13915
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Send Money - Register Now button state (example #3)",
+      "uid" : "a6e4f3b859ba33f8",
+      "parentUid" : "cccbe691235881fd6e853437b6f24321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675087358667,
+        "stop" : 1675087372820,
+        "duration" : 14153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Send Money - Register Now button state (example #4)",
+      "uid" : "73b227065d49e0a0",
+      "parentUid" : "cccbe691235881fd6e853437b6f24321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675087372830,
+        "stop" : 1675087389460,
+        "duration" : 16630
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cccbe691235881fd6e853437b6f24321"
+  } ]
+}
